@@ -1,0 +1,320 @@
+/* search page */
+#filters{
+	font-family: cursive;
+	position: fixed;
+	top: 273px;
+	bottom: 40px;
+	background-color: rgb(42, 69, 46);
+    border: 2px solid rgb(127, 98, 34);
+    color: rgb(147, 120, 56);
+}
+
+#labels{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#filtersButton{
+	position:absolute;
+	right: 20px;
+	bottom: 15px;
+	background-color: rgb(176, 136, 47);
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 3px solid rgb(91, 77, 42);
+    font-size: 12px;
+    line-height: 1.5;
+    width: 40%;
+}
+
+#search {
+	position: relative;
+	top: 90px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(147, 120, 56);
+    padding: 0px 5px;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(42, 69, 46);
+    border: 2px solid rgb(127, 98, 34);
+    margin: auto;
+    text-shadow: -1px 1px 0 rgb(110, 84, 29), 
+                  1px 1px 0 #000, 
+                  0px -1px 0 rgb(110, 84, 29), 
+                 -1px -1px 0 rgb(110, 84, 29);
+}
+
+#hint {
+    font-size: 20px;
+    color: rgb(147, 120, 56);
+}
+
+#inputBox{
+	background-color: rgb(176, 136, 47, .6);
+    width: 50%;
+    padding: 12px 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 3px solid rgb(91, 77, 42);
+}
+
+#inputButton{
+	background-color: rgb(176, 136, 47);
+    width: 50%;
+    padding: 12px 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 3px solid rgb(91, 77, 42);
+}
+
+.links{
+	color: rgb(147, 120, 56);
+}
+
+/* book info */
+#info {
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(147, 120, 56);
+    text-shadow: -1px 1px 0 rgb(110, 84, 29), 
+                  1px 1px 0 #000, 
+                  0px -1px 0 rgb(110, 84, 29), 
+                 -1px -1px 0 rgb(110, 84, 29);    
+}
+
+#booktitle {
+    padding: 20px;
+}
+
+#author {
+    padding: 20px;
+}
+
+#desc {
+    padding: 20px;
+}
+
+
+#buttonLibrary{
+    width: 15%;
+    padding: 15px 30px;
+    margin: 8px;
+    box-sizing: border-box;
+    background-color: rgb(152, 121, 80);
+    border: 1px solid rgb(65, 49, 30);
+}
+
+#inputSize{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+/*Profile*/
+.tab {
+  position: relative;
+  top: 72px;
+  float: left;
+  border: 3px solid rgb(42, 69, 46);
+  box-sizing: border-box;
+  background-color: rgb(147, 120, 56);
+  width: 30%;
+}
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: rgb(42, 69, 46);
+  padding: 22px 16px;
+  width: 100%;
+  border: 3px solid rgb(42, 69, 46, .4);
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+.tab button:hover {
+  background-color: rgb(205, 174, 95);
+}
+
+.tab button.active {
+  background-color: rgb(42, 69, 46);
+}
+
+.tabcontent {
+  position: absolute;
+  left: 437px;
+  top: 257px;
+  padding: 0px 12px;
+  width: 50%;
+  border-left: none;
+  height: 700px;
+  background-color: rgb(42, 69, 46);
+  color: rgb(205, 174, 95);
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: -1px 1px 0 #000, 
+                  1px 1px 0 #000, 
+                  3px -1px 0 #000, 
+                 -1px -1px 0 #000; 
+}
+
+.tablinks{
+    font-size: 20px;
+}
+
+#myBooks {
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+
+
+/*login page*/
+img.background{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px); 
+    filter: blur(2px);
+}
+
+#blur{
+    text-align: center;
+    font-size: 50px;
+  	color: rgb(162, 132, 94);
+    text-shadow: -1px 1px 0 #000, 
+                  1px 1px 0 #000, 
+                  3px -1px 0 white, 
+                 -1px -1px 0 #000; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    line-height: .5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clear{
+    box-shadow: 8px 8px 8px 8px rgb(51, 29, 19);
+    border-radius: 25px;
+    margin: 150px 350px;
+    padding: 30px;
+	border: 10px solid rgb(65, 49, 30);
+}
+
+#loginBox{
+	background-color: rgb(152, 121, 80, .6);
+    width: 50%;
+    padding: 12px 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 3px solid rgb(65, 49, 30);
+}
+
+#loginButton{
+	background-color: rgb(152, 121, 80);
+    width: 50%;
+    padding: 12px 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 3px solid rgb(65, 49, 30);
+}
+
+
+/*menu bar*/
+#bar{
+    background-color: rgb(42, 69, 46);
+    opacity: .85;
+    color: rgb(147, 120, 56);
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+#user{
+    float: right;
+    font-size: 40px;
+	background-color: rgb(42, 69, 46);
+	text-shadow: -1px 1px 0 #000, 
+                  1px 1px 0 #000, 
+                  1px -1px 0 rgb(184, 134, 11), 
+                 -1px -1px 0 #000;
+}
+
+#title{
+	text-align: center;
+    font-size: 100px;
+    line-height: .85;
+	background-color: rgb(42, 69, 46); 
+	text-shadow: -1px 1px 0 #000, 
+                  1px 1px 0 #000, 
+                  3px -1px 0 rgb(184, 134, 11), 
+                 -1px -1px 0 #000;
+}
+
+/* https://www.geeksforgeeks.org/html-course-creating-navigation-menu/?ref=lbp */
+#menu{
+	align-content: center;
+	margin-top: 15px;
+	width: 70%;
+	height: 100%;
+	margin: none;
+    font-size: 20px;
+	background-color: rgb(42, 69, 46);
+	text-shadow: -1px 1px 0 #000, 
+                  1px 1px 0 #000, 
+                  0px -1px 0 rgb(184, 134, 11), 
+                 -1px -1px 0 #000;
+}
+
+#menu ul{
+	text-align: center;
+	float: right;
+	margin: none;
+	background-color: rgb(42, 69, 46);
+}
+
+#menu li{
+	display: inline-block;
+	padding: none;
+	margin: none;
+	
+}	
+
+#menu li a, #menu li span{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 50px;
+}
+
+#menu li a{
+	color: rgb(147, 120, 56);
+	background-color: rgb(42, 69, 46);
+}
+
+#menu li:hover a, #menu li span{
+	background: rgb(147, 120, 56);
+	color: rgb(42, 69, 46);
+	text-decoration: none;
+}
+
+#content{
+    margin-top: 185px;
+}
